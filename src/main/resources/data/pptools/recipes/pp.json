@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "pptools:raw_pp"
+    },
+    "result": "pptools:pp",
+    "experience": 1.5,
+    "cookingtime": 100
+  }

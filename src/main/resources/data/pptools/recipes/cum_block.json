@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "pptools:raw_pp"
+        }
+    },
+    "result": {
+        "item": "pptools:cum_block"
+    }
+}

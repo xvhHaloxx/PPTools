@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "pptools",
+  "version": "${version}",
+
+  "name": "PP Tools",
+  "description": "Adds PP tools and armor to the game!",
+  "authors": [
+    "Haloxx"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "Copyright Act of 1976",
+  "icon": "assets/pptools/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "halo.pp.tools.PPTools"
+    ]
+  },
+  "mixins": [
+    "pptools.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "pptools:pp"
+  },
+  "result": {
+    "item": "pptools:dick_boots"
+  }
+}
